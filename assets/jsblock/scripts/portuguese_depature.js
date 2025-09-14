@@ -27,7 +27,7 @@ function render(ctx, state, pids) {
 
   Text.create("Clock")
       .text(time)
-      .color(0x0500be)
+      .color(0x007df4)
       .size(30, 3.5)
       .pos(pids.width - 8, 2)
       .scaleXY()
@@ -101,4 +101,5 @@ function render(ctx, state, pids) {
 }
 
 function dispose(ctx, state, pids) {
+
 }
